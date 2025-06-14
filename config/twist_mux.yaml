@@ -1,0 +1,13 @@
+twist_mux:
+  ros__parameters:
+    use_sim_time: true
+    topics:
+      navigation:
+        topic: cmd_vel
+        timeout: 0.5
+        priority: 10
+      keyboard:
+        topic: cmd_vel_keyboard
+        timeout: 0.5
+        priority: 100
+    output_topic: cmd_vel_out
