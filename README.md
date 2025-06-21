@@ -1,6 +1,6 @@
 # Autonomous Mobile Robot (AMR) – ROS 2 Humble (Gazebo Classic 11)
 
-This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using **ROS 2 Humble Hawksbill** on **Ubuntu 22.04**, with simulation in **Gazebo Classic 11**. The robot performs **mapping, localization, and navigation** in a simulated 2D environment using **LiDAR and camera sensors**.
+This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using **ROS 2 Humble** on **Ubuntu 22.04**, with simulation in **Gazebo Classic 11**. The robot performs **mapping, localization, and navigation** in a simulated 2D environment using **LiDAR and camera sensors**.
 
 ---
 
@@ -74,7 +74,7 @@ amr/
 ## System Requirements
 
 - OS: Ubuntu 22.04 LTS  
-- ROS 2: Humble Hawksbill  
+- ROS 2: Humble  
 - Gazebo: Classic 11
 
 ---
@@ -98,3 +98,10 @@ sudo apt install -y \
 ```
 
 ---
+
+---
+
+## Demo Video
+
+Watch the demo video of the AMR in action:  
+[▶️ Watch on Google Drive](https://drive.google.com/file/d/1Y_d6AQfHRYneliP6IGAeHicNg2dIlrHr/view?usp=sharing)
