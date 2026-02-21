@@ -1,6 +1,6 @@
 slam_toolbox:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: false
     # Plugin params
     solver_plugin: solver_plugins::CeresSolver
     ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
@@ -12,17 +12,17 @@ slam_toolbox:
     # ROS Parameters
     odom_frame: odom
     map_frame: map
-    base_frame: base_footprint
+    base_frame: base_link
     scan_topic: /scan
-    mode: localization
+    mode: mapping
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    map_file_name: /home/harshit_ji/ros2_ws/src/amr/my_map_serial
+    # map_file_name: /home/harshit_ji/ros2_ws/src/amr/my_map_serial
 
     # map_start_pose: [0.0, 0.0, 0.0]
-    map_start_at_dock: true
+    map_start_at_dock: false
 
     debug_logging: false
     throttle_scans: 1
@@ -39,8 +39,8 @@ slam_toolbox:
     # General Parameters
     use_scan_matching: true
     use_scan_barycenter: true
-    minimum_travel_distance: 0.5
-    minimum_travel_heading: 0.5
+    minimum_travel_distance: 0.1
+    minimum_travel_heading: 0.1
     scan_buffer_size: 10
     scan_buffer_maximum_scan_distance: 10.0
     link_match_minimum_response_fine: 0.1  
