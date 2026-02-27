@@ -31,11 +31,11 @@ PPR          = 210
 # PWM CONFIG (SAFE FOR RPi.GPIO)
 # ======================================================
 MIN_PWM = 20
-MAX_PWM = 100   # DO NOT exceed 100 on Raspberry Pi
+MAX_PWM = 130   
 
 # Motor calibration gains
-LEFT_GAIN  = 0.20   # Left motor slower
-RIGHT_GAIN = 1.20   # Right motor faster
+LEFT_GAIN  = 0.30   # Left motor slower
+RIGHT_GAIN = 1.30   # Right motor faster
 
 class MotorEncoderBridge(Node):
 
