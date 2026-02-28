@@ -4,7 +4,7 @@ This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using *
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Hybrid Deployment**: Seamlessly switch between **Gazebo Classic 11** simulation and **physical hardware**.
 - **SLAM Mapping**: Generate 2D occupancy grid maps using **SLAM Toolbox**.
@@ -14,24 +14,20 @@ This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using *
 - **Real-time Visualization**: Monitor sensor data, robot pose, and live camera feeds in **RViz2**.
 
 ---
-
-## 📸 Media
-
+## Media
 ### Hardware Implementation
-<img src="/home/harshit/amr/src/AMR/assets/mapping.jpg" width="600">  
+<img src="assets/mapping.jpg" width="600" alt="AMR Mapping"> 
 
 *The physical AMR utilizing RPLidar and encoder motor.*
 
 ### Demo Video
 Watch the AMR in action (Hardware & Simulation):  
-
-<video src="/home/harshit/amr/src/AMR/assets/SLAM_implemented.mp4" width="600" controls>
+<video src="https://github.com/Harshit-kumar-Saxena/AMR/blob/main/assets/SLAM_implemented.mp4" width="600" controls>
   Your browser does not support the video tag.
-</video>
-
+</video> 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```text
 amr/
