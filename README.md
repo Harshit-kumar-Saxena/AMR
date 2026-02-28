@@ -55,16 +55,17 @@ amr/
 │   └── model.sdf                      # Simulation world file
 ├── package.xml                        # Project dependencies
 └── setup.cfg                          # Package configuration
-
+```
 
 ## System Requirements
-1. Prerequisites
+```text
+Prerequisites
 OS: Ubuntu 22.04 LTS
 ROS 2: Humble
 Simulator: Gazebo Classic 11
-
-
-2. Install Dependencies
+```
+```text
+Install Dependencies
 
 sudo apt update
 sudo apt install -y \
@@ -77,8 +78,8 @@ sudo apt install -y \
   ros-humble-xacro \
   ros-humble-ros2-control \
   ros-humble-ros2-controllers
-
-
+```
+```text
 ## Usage Guide
 
 Simulation Mode
@@ -100,16 +101,13 @@ ros2 launch amr rplidar.launch.py
 ros2 run amr motor_driver_node.py
 ros2 run amr motor_encoder_bridge.py
 
-
 SLAM & Navigation
 To generate a map:
-
 ros2 launch amr online_async_launch.py
 
 To navigate using a saved map:
-
 ros2 launch amr navigation_launch.py
-
+```
 
 📄 License
 This project is licensed under the MIT License.
