@@ -22,8 +22,7 @@ This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using *
 
 ### Demo Video
 Watch the AMR in action (Hardware & Simulation):  
-<video src="https://github.com/Harshit-kumar-Saxena/AMR/blob/main/assets/SLAM_implemented.mp4" width="600" controls>
-  Your browser does not support the video tag.
+<video src="assets/SLAM_implemented.mp4" width="600" controls>
 </video> 
 ---
 
