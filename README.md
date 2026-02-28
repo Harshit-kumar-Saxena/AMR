@@ -22,7 +22,7 @@ This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using *
 <img src="assets/Bot.png" width="600" alt="AMR Bot"> 
 
 ### Demo Video
-<video src="assets/SLAM_implemented.mp4" width="600" controls></video>
+[![Watch the Demo]](https://drive.google.com/drive/folders/1BYQcUc7CnXSpuvwmU4K5HlSZyIYC0h7z?usp=sharing)
 ---
 
 ## Directory Structure
