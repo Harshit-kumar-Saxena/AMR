@@ -18,14 +18,14 @@ This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using *
 ## 📸 Media
 
 ### Hardware Implementation
-<img src="AMR/assesst/mapping.jpg" width="600">  
+<img src="/home/harshit/amr/src/AMR/assets/mapping.jpg" width="600">  
 
 *The physical AMR utilizing RPLidar and encoder motor.*
 
 ### Demo Video
 Watch the AMR in action (Hardware & Simulation):  
 
-<video src="AMR/assesst/SLAM_implemented.mp4" width="600" controls>
+<video src="/home/harshit/amr/src/AMR/assets/SLAM_implemented.mp4" width="600" controls>
   Your browser does not support the video tag.
 </video>
 
@@ -90,13 +90,11 @@ sudo apt install -y \
 Simulation Mode
 To launch the robot in Gazebo with ros2_control enabled:
 
-
 ros2 launch amr launch_sim.launch.py
 
 
 Hardware Mode
 To bring up the physical robot:
-
 
 # 1. Start Robot State Publisher
 ros2 launch amr rsp.launch.py
@@ -112,12 +110,9 @@ ros2 run amr motor_encoder_bridge.py
 SLAM & Navigation
 To generate a map:
 
-
 ros2 launch amr online_async_launch.py
 
-
 To navigate using a saved map:
-
 
 ros2 launch amr navigation_launch.py
 
