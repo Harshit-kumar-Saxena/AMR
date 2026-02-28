@@ -15,15 +15,14 @@ This project demonstrates an **Autonomous Mobile Robot (AMR)** developed using *
 
 ---
 ## Media
-### Hardware Implementation
+### Mapping 
 <img src="assets/mapping.jpg" width="600" alt="AMR Mapping"> 
 
-*The physical AMR utilizing RPLidar and encoder motor.*
+### Bot 
+<img src="assets/Bot.png" width="600" alt="AMR Bot"> 
 
 ### Demo Video
-Watch the AMR in action (Hardware & Simulation):  
-<video src="assets/SLAM_implemented.mp4" width="600" controls>
-</video> 
+<video src="assets/SLAM_implemented.mp4" width="600" controls></video>
 ---
 
 ## Directory Structure
@@ -63,9 +62,9 @@ amr/
 OS: Ubuntu 22.04 LTS
 ROS 2: Humble
 Simulator: Gazebo Classic 11
+
+
 2. Install Dependencies
-
-
 
 sudo apt update
 sudo apt install -y \
